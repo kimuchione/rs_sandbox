@@ -1,6 +1,22 @@
 use crossterm::event::{read, EnableMouseCapture, Event, KeyCode, KeyEvent, KeyModifiers};
+use reqwest::blocking::Client;
+
+pub const API_KEY: &str = include_str!("../../api.txt");
+struct FinanceClient {
+    url: String,
+    client: Client,
+}
 
 fn main() -> crossterm::Result<()> {
+    let individual_client = FinanceClient {
+        url: "https://finnhub.io/api/v1".to_string(),
+        client: Client::default(),
+    };
+    let FinanceClient { url, client } = individual_client;
+
+    let text = client.get(url).send().unwrap().text().unwrap();
+    println!("Text : {}", text);
+
     loop {
         match read()? {
             Event::Key(event) => {
