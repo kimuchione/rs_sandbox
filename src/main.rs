@@ -1,4 +1,4 @@
-use crossterm::event::{read, EnableMouseCapture, Event, KeyCode, KeyEvent};
+use crossterm::event::{read, EnableMouseCapture, Event, KeyCode, KeyEvent, KeyModifiers};
 
 fn main() -> crossterm::Result<()> {
     loop {
@@ -6,7 +6,12 @@ fn main() -> crossterm::Result<()> {
             Event::Key(event) => {
                 let KeyEvent { code, modifiers } = event;
                 match (code, modifiers) {
-                    (KeyCode::Char(c), _) if c == ' ' => println!("empty"),
+                    (KeyCode::Char(c), _) if c == ' ' => println!("Pressd Spacebar!"),
+                    (KeyCode::Char(c), modifier)
+                        if c == 's' && modifier == KeyModifiers::CONTROL =>
+                    {
+                        println!("saved")
+                    }
                     (KeyCode::Char(c), _) => println!("Got a char : {}", c),
                     (KeyCode::Up, _) => println!("Pressed Up!"),
                     (KeyCode::Down, _) => println!("Pressed Down!"),
