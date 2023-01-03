@@ -2,20 +2,32 @@ use crossterm::event::{read, EnableMouseCapture, Event, KeyCode, KeyEvent, KeyMo
 use reqwest::blocking::Client;
 
 pub const API_KEY: &str = include_str!("../../api.txt");
+#[derive(Debug)]
 struct FinanceClient {
     url: String,
     client: Client,
 }
 
+impl FinanceClient {
+    fn get_profile(&self, symbol: &str) {
+        let text = &self
+            .client
+            .get(format!("{}/stock/profile2?symbol={symbol}", &self.url))
+            .header("X-Finnhub-Token", API_KEY)
+            .send()
+            .unwrap()
+            .text()
+            .unwrap();
+        println!("Text : {text}");
+    }
+}
+
 fn main() -> crossterm::Result<()> {
     let individual_client = FinanceClient {
-        url: "https://finnhub.io/api/v1".to_string(),
+        url: "https://finnhub.io/api/v1/".to_string(),
         client: Client::default(),
     };
-    let FinanceClient { url, client } = individual_client;
-
-    let text = client.get(url).send().unwrap().text().unwrap();
-    println!("Text : {}", text);
+    individual_client.get_profile("TSLA");
 
     loop {
         match read()? {

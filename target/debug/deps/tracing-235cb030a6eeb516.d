@@ -1,0 +1,13 @@
+c:\Users\tayu2\rust_sandbox\rs_sandbox\target\debug\deps\tracing-235cb030a6eeb516.rmeta: C:\Users\tayu2\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.37\src\lib.rs C:\Users\tayu2\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.37\src\macros.rs C:\Users\tayu2\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.37\src\dispatcher.rs C:\Users\tayu2\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.37\src\field.rs C:\Users\tayu2\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.37\src\instrument.rs C:\Users\tayu2\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.37\src\level_filters.rs C:\Users\tayu2\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.37\src\span.rs C:\Users\tayu2\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.37\src\stdlib.rs C:\Users\tayu2\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.37\src\subscriber.rs
+
+c:\Users\tayu2\rust_sandbox\rs_sandbox\target\debug\deps\tracing-235cb030a6eeb516.d: C:\Users\tayu2\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.37\src\lib.rs C:\Users\tayu2\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.37\src\macros.rs C:\Users\tayu2\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.37\src\dispatcher.rs C:\Users\tayu2\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.37\src\field.rs C:\Users\tayu2\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.37\src\instrument.rs C:\Users\tayu2\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.37\src\level_filters.rs C:\Users\tayu2\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.37\src\span.rs C:\Users\tayu2\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.37\src\stdlib.rs C:\Users\tayu2\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.37\src\subscriber.rs
+
+C:\Users\tayu2\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.37\src\lib.rs:
+C:\Users\tayu2\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.37\src\macros.rs:
+C:\Users\tayu2\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.37\src\dispatcher.rs:
+C:\Users\tayu2\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.37\src\field.rs:
+C:\Users\tayu2\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.37\src\instrument.rs:
+C:\Users\tayu2\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.37\src\level_filters.rs:
+C:\Users\tayu2\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.37\src\span.rs:
+C:\Users\tayu2\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.37\src\stdlib.rs:
+C:\Users\tayu2\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.37\src\subscriber.rs:
