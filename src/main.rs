@@ -6,6 +6,13 @@ pub const API_KEY: &str = include_str!("../../api.txt");
 struct FinanceClient {
     url: String,
     client: Client,
+    search_string: String,
+}
+
+struct CompanyInfo {
+    country: String,
+    currency: String,
+    market_capitalization: String,
 }
 
 impl FinanceClient {
@@ -23,24 +30,30 @@ impl FinanceClient {
 }
 
 fn main() -> crossterm::Result<()> {
-    let individual_client = FinanceClient {
+    let mut individual_client = FinanceClient {
         url: "https://finnhub.io/api/v1/".to_string(),
         client: Client::default(),
+        search_string: String::new(),
     };
-    individual_client.get_profile("TSLA");
+    // individual_client.get_profile("TSLA");
 
     loop {
         match read()? {
             Event::Key(event) => {
                 let KeyEvent { code, modifiers } = event;
                 match (code, modifiers) {
-                    (KeyCode::Char(c), _) if c == ' ' => println!("Pressd Spacebar!"),
-                    (KeyCode::Char(c), modifier)
-                        if c == 's' && modifier == KeyModifiers::CONTROL =>
-                    {
-                        println!("saved")
+                    (KeyCode::Char(c), modifier) => {
+                        individual_client.search_string.push(c);
+                        println!("{}", individual_client.search_string);
                     }
-                    (KeyCode::Char(c), _) => println!("Got a char : {}", c),
+                    (KeyCode::Esc, _) => {
+                        individual_client.search_string.clear();
+                        println!("{}", individual_client.search_string);
+                    }
+                    (KeyCode::Backspace, _) => {
+                        individual_client.search_string.pop();
+                        println!("{}", individual_client.search_string);
+                    }
                     (KeyCode::Up, _) => println!("Pressed Up!"),
                     (KeyCode::Down, _) => println!("Pressed Down!"),
                     (KeyCode::Left, _) => println!("Pressed Left!"),
