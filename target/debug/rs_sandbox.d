@@ -1,1 +1,1 @@
-C:\Users\tayu2\rust_sandbox\rs_sandbox\target\debug\rs_sandbox.exe: C:\Users\tayu2\rust_sandbox\rs_sandbox\src\../../api.txt C:\Users\tayu2\rust_sandbox\rs_sandbox\src\main.rs
+/mnt/c/Users/tayu2/rust_sandbox/rs_sandbox/target/debug/rs_sandbox: /mnt/c/Users/tayu2/rust_sandbox/rs_sandbox/src/../../api.txt /mnt/c/Users/tayu2/rust_sandbox/rs_sandbox/src/main.rs

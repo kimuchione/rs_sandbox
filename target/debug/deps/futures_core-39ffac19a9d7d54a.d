@@ -1,0 +1,11 @@
+/mnt/c/Users/tayu2/rust_sandbox/rs_sandbox/target/debug/deps/futures_core-39ffac19a9d7d54a.rmeta: /home/kimchiman/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.25/src/lib.rs /home/kimchiman/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.25/src/future.rs /home/kimchiman/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.25/src/stream.rs /home/kimchiman/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.25/src/task/mod.rs /home/kimchiman/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.25/src/task/poll.rs /home/kimchiman/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.25/src/task/__internal/mod.rs /home/kimchiman/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.25/src/task/__internal/atomic_waker.rs
+
+/mnt/c/Users/tayu2/rust_sandbox/rs_sandbox/target/debug/deps/futures_core-39ffac19a9d7d54a.d: /home/kimchiman/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.25/src/lib.rs /home/kimchiman/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.25/src/future.rs /home/kimchiman/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.25/src/stream.rs /home/kimchiman/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.25/src/task/mod.rs /home/kimchiman/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.25/src/task/poll.rs /home/kimchiman/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.25/src/task/__internal/mod.rs /home/kimchiman/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.25/src/task/__internal/atomic_waker.rs
+
+/home/kimchiman/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.25/src/lib.rs:
+/home/kimchiman/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.25/src/future.rs:
+/home/kimchiman/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.25/src/stream.rs:
+/home/kimchiman/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.25/src/task/mod.rs:
+/home/kimchiman/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.25/src/task/poll.rs:
+/home/kimchiman/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.25/src/task/__internal/mod.rs:
+/home/kimchiman/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.25/src/task/__internal/atomic_waker.rs:
